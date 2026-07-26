@@ -5,17 +5,17 @@
 // without funcion
 let numebr = 15;
 
-// for (let i = 1; i <= numebr; i++) {
-//   if (i % 3 === 0 && i % 5 === 0) {
-//     console.log("FizzBuzz");
-//   } else if (i % 3 === 0) {
-//     console.log("Fizz");
-//   } else if (i % 5 === 0) {
-//     console.log("Buzz");
-//   } else {
-//     console.log(i);
-//   }
-// }
+for (let i = 1; i <= numebr; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
+  }
+}
 
 // with function
 function fizzBuzz(numebr) {
@@ -33,4 +33,4 @@ function fizzBuzz(numebr) {
   }
   return result;
 }
-console.log(fizzBuzz(15));
+console.log(fizzBuzz(20));
