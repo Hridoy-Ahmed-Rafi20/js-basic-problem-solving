@@ -18,5 +18,5 @@ function getFactorial(number) {
 }
 const getFactoOfFour = getFactorial(4);
 const getFactoOfFive = getFactorial(5);
-console.log(`Factorial with function: ${getFactoOfFour}`);
-console.log(`Factorial with function: ${getFactoOfFive}`);
+console.log(`Factorial of four: ${getFactoOfFour}`);
+console.log(`Factorial of five: ${getFactoOfFive}`);
