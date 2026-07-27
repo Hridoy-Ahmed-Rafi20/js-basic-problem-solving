@@ -10,13 +10,14 @@ Input Output
 // Returns: a number
 
 function productOfDigits(num) {
-  //   let str = num.toString();
+  let str = num.toString();
+  let arr = str.split(""); // have to transfered into array
   let total = 1;
-  for (let i = 1; i < num.length; i++) {
-    total *= num[i];
+  for (let i = 1; i < arr.length; i++) {
+    total *= arr[i];
   }
 
-  return `Product of digits`;
+  return `Product of digits: ${total}`;
 }
 
 console.log(productOfDigits(123)); // Expected: 6
