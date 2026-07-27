@@ -18,7 +18,7 @@ function reverseNumber(num) {
   let joined = revesed.join("");
 
   let converIntoNumber = Number(joined);
-  return `the number with digits reversed: ${converIntoNumber}`;
+  return converIntoNumber;
 }
 console.log(reverseNumber(1234)); // Expected: 4321
 console.log(reverseNumber(7)); // Expected: 7
