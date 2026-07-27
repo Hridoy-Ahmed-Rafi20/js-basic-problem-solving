@@ -13,22 +13,21 @@ for (let i = 0; i <= word.length - 1; i++) {
 console.log("count of vowels:", count);
 
 // with function
-function countVowels(sentence) {
-  const vowel = ["a", "e", "i", "o", "u"];
+function countVowel(sentence) {
   let count = 0;
-  for (let i = 0; i <= sentence.length - 1; i++) {
-    let letter = sentence[i];
-    if (vowel.includes(letter)) {
+  let vowel = ["a", "e", "i", "o", "u"];
+  // for (let i = 0; i <= sentence.length - 1; i++) {
+  //   if (vowel.includes(sentence[i])) {
+  //     count++;
+  //   }
+  // }
+
+  for (let i of sentence) {
+    if (vowel.includes(i)) {
       count++;
     }
   }
+
   return count;
 }
-
-let ph = "Programming hero";
-let getPhVowels = countVowels(ph);
-console.log(`count vowel of ${ph} is : ${getPhVowels} `);
-
-let bd = "Bangladesh";
-let getBdVowels = countVowels(bd);
-console.log(`count vowel of ${bd} is : ${getBdVowels} `);
+console.log(countVowel("javascript"));
