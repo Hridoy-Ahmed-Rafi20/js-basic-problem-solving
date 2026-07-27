@@ -17,7 +17,7 @@ function productOfDigits(num) {
     total *= arr[i];
   }
 
-  return `Product of digits: ${total}`;
+  return total;
 }
 
 console.log(productOfDigits(123)); // Expected: 6
