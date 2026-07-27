@@ -20,5 +20,5 @@ function reverseNumber(num) {
   let converIntoNumber = Number(joined);
   return converIntoNumber;
 }
-console.log(reverseNumber(1234));
-console.log(reverseNumber(7));
+console.log(reverseNumber(1234)); // Expected: 4321
+console.log(reverseNumber(7)); // Expected: 7
