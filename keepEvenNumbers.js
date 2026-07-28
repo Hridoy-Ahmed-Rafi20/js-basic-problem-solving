@@ -1,0 +1,22 @@
+/* Task 13-7B: Keep Only Even Numbers 
+Problem Statement: 
+Write a function keepEvenNumbers that takes an array of numbers and 
+returns a new array with only the even numbers. 
+Input 
+Output 
+[3, -5, 8, -1, 0] 
+[8, 0] */
+
+// Input: an array of numbers
+// Output: array with only even numbers
+// Returns: an array
+function keepEvenNumbers(numbers) {
+  let result = [];
+  for (let number of numbers) {
+    if (number % 2 === 0) {
+      result.push(number);
+    }
+  }
+  return result;
+}
+console.log(keepEvenNumbers([3, -5, 8, -1, 0])); // Expected: [8, 0]
