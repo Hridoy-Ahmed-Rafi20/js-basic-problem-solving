@@ -31,3 +31,4 @@ function countVowel(sentence) {
   return count;
 }
 console.log(countVowel("javascript"));
+
