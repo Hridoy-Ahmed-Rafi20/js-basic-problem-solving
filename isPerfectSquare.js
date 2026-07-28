@@ -10,11 +10,9 @@ Input Output
 // Returns: a boolean
 
 function isPerfectSquare(num) {
-  // let square = 1;
   for (let i = 1; i <= num; i++) {
-    let square = i * i;
-    // console.log(i, square);
-    if (num === square) {
+    let perfectSquare = i * i;
+    if (num === perfectSquare) {
       return true;
     }
   }
