@@ -12,7 +12,7 @@ for (let i = 0; i <= word.length - 1; i++) {
 }
 console.log("count of vowels:", count);
 
-// with function
+// with function //
 function countVowel(sentence) {
   let count = 0;
   let vowel = ["a", "e", "i", "o", "u"];
