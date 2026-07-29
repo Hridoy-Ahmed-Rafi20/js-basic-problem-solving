@@ -1,5 +1,4 @@
 // Problem: Count vowel of a sentence
-
 // without function
 let word = "hridoy";
 let vowel = ["a", "e", "i", "o", "u"];
